@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> झाडाची माहिती</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== COMMON ===== */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans Devanagari", sans-serif;
+      color: #1b5e20;
+      line-height: 1.75;
+      background: #ffffff;
+    }
+
+    /* ===== HEADER (SAME) ===== */
+    header {
+      background: linear-gradient(to right, #0d0d0d, #b30000);
+      color: #fff;
+      padding: 28px 40px;
+    }
+
+    .header-container {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo { text-align: center; }
+    .logo img { height: 120px; }
+
+    .udise {
+      margin-top: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .header-text { text-align: center; }
+
+    .header-text h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header-text h2 {
+      font-size: 24px;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+
+    .email {
+      font-size: 16px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .email { text-align: center; }
+      .logo img { height: 95px; margin: auto; }
+    }
+
+    /* ===== BACKGROUND ===== */
+    .main-wrapper {
+      background:
+        linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+        url("bg1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 22px;
+    }
+
+    /* ===== TREE CONTENT ===== */
+    .tree-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .tree-title h1 { font-size: 46px; }
+
+    .tree-title p {
+      font-size: 18px;
+      color: #33691e;
+    }
+
+    .tree-image {
+      width: 360px;
+      height: 300px;
+      margin: 28px auto;
+      border-radius: 20px;
+      background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    .tree-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    section {
+      background: linear-gradient(to bottom right, #ffffff, #f1fff3);
+      padding: 32px;
+      margin-bottom: 38px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    section h2 {
+      border-bottom: 3px solid #81c784;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    section p { text-align: justify; }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #ffffff, #e8f5e9);
+      padding: 22px;
+      border-radius: 14px;
+      border-left: 6px solid #2e7d32;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .circular-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .circular-card {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #e8f5e9, #a5d6a7);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 28px;
+      border: 6px solid #2e7d32;
+    }
+
+    /* ===== FOOTER (SAME) ===== */
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: linear-gradient(to right, #2e7d32, #66bb6a);
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER (UNCHANGED) ===== -->
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="pm logo.png" alt="PM SHRI Logo">
+      <div class="udise">UDISE : 27150107301</div>
+    </div>
+
+    <div class="header-text">
+      <h1>पीएम श्री जिल्हा परिषद हायस्कूल, विष्णुपूरी नांदेड</h1>
+    </div>
+
+    <div class="email">
+      E-mail ID<br>
+      <strong>zphsvishnupuri@gmail.com</strong>
+    </div>
+  </div>
+</header>
+
+
+<div class="main-wrapper">
+<main>
+
+  <div class="tree-title">
+    <h1>🌿 कॉसमस फूल</h1>
+    <p>
+      English Name : Cosmos<br>
+      <i>Scientific Name :Cosmos bipinnatus</i>
+    </p>
+
+    <div class="tree-image">
+      <img src="cosmos.jpg" alt=कॉसमस फूल>
+    </div>
+  </div>
+
+  <section>
+    <h2>संक्षिप्त परिचय</h2>
+    <p>{{झाडाची सविस्तर माहिती}}</p>
+  </section>
+
+  <section>
+   <section>
+  <h2>संक्षिप्त परिचय</h2>
+  <p>
+    कॉसमॉस हे एक आकर्षक, रंगीबेरंगी आणि सहज वाढणारे फुलझाड आहे. हे झाड मुख्यतः बागा, शालेय उद्याने,
+    रस्त्यांच्या कडेला आणि घरगुती कुंड्यांमध्ये लावले जाते. कॉसमॉस फुले गुलाबी, जांभळी, पांढरी,
+    लाल आणि पिवळ्या रंगात आढळतात. या झाडाची वाढ जलद होते आणि कमी देखभालीतही भरभराट होते.
+    कॉसमॉस झाड उंच, सडपातळ आणि नाजूक खोडाचे असते. याची पाने बारीक, कापसासारखी व नक्षीदार दिसतात.
+    हे झाड मधमाश्या, फुलपाखरे यांना आकर्षित करते म्हणून पर्यावरणाच्या दृष्टीने उपयुक्त मानले जाते.
+    कॉसमॉसला जास्त खतांची गरज नसते आणि साध्या जमिनीतही ते चांगले वाढते.
+  </p>
+</section>
+
+<section>
+  <h2>वनस्पतीशास्त्रीय माहिती</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>🌿 कुल</h3>
+      <p>Asteraceae (सूर्यमुखी कुल)</p>
+    </div>
+    <div class="card">
+      <h3>🌱 रचना</h3>
+      <p>
+        कॉसमॉस हे एक वर्षायू (annual) औषधी वनस्पतीसारखे फुलझाड आहे.
+        याचे खोड सरळ, सडपातळ व फांद्यांनी युक्त असते.
+        पाने बारीक, खोल कापलेली व मऊ असतात.
+      </p>
+    </div>
+    <div class="card">
+      <h3>🌼 फुले</h3>
+      <p>
+        फुले मोठी, एकटी किंवा गुच्छात येणारी असतात.
+        रंग गुलाबी, पांढरा, जांभळा, लाल व पिवळा आढळतो.
+        फुलांचा मध्यभाग पिवळसर असतो.
+      </p>
+    </div>
+    <div class="card">
+      <h3>🌍 अधिवास</h3>
+      <p>
+        मूळ स्थान मेक्सिको व मध्य अमेरिका.
+        उष्ण व समशीतोष्ण हवामानात चांगली वाढ होते.
+        भारतात बागांमध्ये मोठ्या प्रमाणावर लागवड केली जाते.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>सामाजिक व सांस्कृतिक महत्त्व</h2>
+  <p>
+    कॉसमॉस फुले सौंदर्यवर्धनासाठी मोठ्या प्रमाणावर वापरली जातात.
+    बागेची शोभा वाढवण्यासाठी आणि फुलपाखरे आकर्षित करण्यासाठी हे झाड लावले जाते.
+    शालेय बाग प्रकल्प, पर्यावरण दिन आणि फुल प्रदर्शनांमध्ये कॉसमॉसचे महत्त्व आहे.
+    साधेपणा, शांतता आणि निसर्गसौंदर्याचे प्रतीक म्हणूनही या फुलाकडे पाहिले जाते.
+  </p>
+</section>
+
+<section>
+  <h2>काळजी व धोके</h2>
+  <div class="circular-container">
+    <div class="circular-card">
+      <p>
+        कॉसमॉस झाडाला मध्यम पाणी द्यावे.
+        जास्त पाणी दिल्यास मुळे कुजण्याची शक्यता असते.
+        पूर्ण सूर्यप्रकाशात झाड अधिक चांगले फुलते.
+      </p>
+    </div>
+    <div class="circular-card">
+      <p>
+        हे झाड साधारणपणे सुरक्षित आहे.
+        कोणताही गंभीर धोका किंवा विषारी परिणाम ज्ञात नाही.
+        कीड व रोगांचा प्रादुर्भाव कमी प्रमाणात होतो.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+</main>
+</div>
+
+
+
+<!-- ===== FOOTER (UNCHANGED) ===== -->
+<footer>
+  © 2025–26 | झाडांची माहिती | PM SHRI ZP High School, Vishnupuri, Nanded
+</footer>
+
+</body>
+</html>
